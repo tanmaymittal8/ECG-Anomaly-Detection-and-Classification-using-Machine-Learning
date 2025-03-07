@@ -1,4 +1,4 @@
-Run to Jupiter notebook named Notebook to run the code
+Run Jupiter notebook named Notebook to run the code
 
 Model trained on datasets form Kaggle. Links provided below -
 
