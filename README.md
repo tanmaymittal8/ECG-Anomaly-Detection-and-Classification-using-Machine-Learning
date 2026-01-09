@@ -9,8 +9,6 @@ This project implements a Deep Learning solution for detecting cardiac anomalies
 
 By training the model exclusively on "Normal" heartbeats, the system learns to reconstruct healthy ECG patterns. When presented with an "Abnormal" heartbeat (Arrhythmia or Myocardial Infarction), the model fails to reconstruct it accurately, resulting in a high reconstruction error that flags the anomaly.
 
-![Normal vs Abnormal ECG Signal](path/to/your/plot_image.png)
-*(Note: Replace the path above with a screenshot from your `data_plots.ipynb` notebook)*
 
 ## Key Features
 * **Architecture:** Long Short-Term Memory (LSTM) Autoencoder designed for time-series data.
@@ -29,8 +27,6 @@ https://www.kaggle.com/datasets/raufmomin/eeg-and-ecg-datasets
 
 ## Model Architecture & Logic
 The core of the project is an **LSTM Autoencoder**.
-
-![LSTM Autoencoder Architecture](path/to/architecture_diagram.png)
 
 1. **Encoder:** Compresses the input time-series data (ECG signal) into a lower-dimensional latent space representation using LSTM layers.
 2. **Decoder:** Attempts to reconstruct the original input from the latent representation.
