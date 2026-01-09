@@ -1,7 +1,3 @@
-Model trained on datasets form Kaggle. Links provided below -
-
-
-
 # ECG Anomaly Detection using LSTM Autoencoders
 
 ## Project Overview
